@@ -3,7 +3,8 @@
 
 # Open the working Directory #
 
-![day_1_1](https://github.com/shashisahu1038/vsd_lab/assets/165407652/76c20d09-1604-4e9c-be0d-3f71ab281151)
+![day_1_1](https://github.com/shashisahu1038/vsd_lab/assets/165407652/b484210a-ccb8-42d3-91a8-1a5adae8b1fa)
+
  
   
  ##
@@ -13,4 +14,6 @@
    
    cd openlane_working_dir
   
-   cd openlane                                                                                                                                                                               
+   cd openlane 
+##
+# To open the Openlane #
