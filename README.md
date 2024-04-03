@@ -98,7 +98,9 @@ prep - design picorv32a
 #
 # Day 2 #
 
+# Floorplanning #
 
+ **The LAB for day 2 gives the complete flow of the Floorplanning and the placement process**
 
 
 
