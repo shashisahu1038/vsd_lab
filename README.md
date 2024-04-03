@@ -80,10 +80,15 @@
 
                           = 10.8429685
 
-# Synthesis Report 
+# Synthesis Report-:
+#
+**We can find Synthesis Report in the directory**
 
+     /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/30-03_04-14/reports/synthesis/1-yosys_4.stat.rpt
 
+**We can find Synthesis Report in the directory**
 
+     /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/30-03_04-14/results/synthesis/picorv32a.synthesis.v
 
 
 
