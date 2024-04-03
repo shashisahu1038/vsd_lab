@@ -52,9 +52,19 @@
 #To run the Synthesis-
 
   run_synthesis
-  
+#  
+-> After Synthesis is completed,we have seen all the details about the synthesis of the design(picorv32a)
+
+•The Chip Area of the module 147712.918400 as shown in figure-
+
+![day_1_5](https://github.com/shashisahu1038/vsd_lab/assets/165407652/4d7c0656-325d-4a40-a850-f97c1e69faa6)
 
 
+•Number of cells: 14876
+
+![day_1_6](https://github.com/shashisahu1038/vsd_lab/assets/165407652/3c957849-b469-4a48-abd8-5aa9e935c8cf)
+
+•Number of FF: 1613
 
 
 
