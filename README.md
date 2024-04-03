@@ -43,9 +43,10 @@
 #
 **To prepare the openlane, use command-**
 
-  package require openlane 0.9
-  
-  prep - design picorv32a
+package require openlane 0.9
+
+prep - design picorv32a
+    
 #
  # For Synthesis  
 ![day_1_4](https://github.com/shashisahu1038/vsd_lab/assets/165407652/e6c28df5-4047-4c2e-ae76-1a9e49120cbc)
@@ -90,6 +91,12 @@
 
      /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/30-03_04-14/results/synthesis/picorv32a.synthesis.v
 
+
+
+
+
+#
+# Day 2 #
 
 
 
