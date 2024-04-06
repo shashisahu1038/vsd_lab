@@ -130,16 +130,16 @@ In this particular location from the floorplan.def file, we can able to see the 
       Area of die in micron = 660.685*671.405 Square micron 
 
 # 
-Open this directory to initiate the Magic Tool
+**Open this directory to launch the Magic Tool**
 ![day_2_open_magic](https://github.com/shashisahu1038/vsd_lab/assets/165407652/c4f2c120-f46a-43cd-98e5-22664b90771e)
 
-Locate to this directory
+**Locate to this directory**
 
     ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/29-03_15-37/results/floorplan
 
     magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 #
-Floorplan def in Magic
+**layout of Design in Floorplan stage inside Magic**
 
 ![d_2_def_clear](https://github.com/shashisahu1038/vsd_lab/assets/165407652/408c7a7d-10ee-4f43-b1e4-2353658e71e1)
 
