@@ -89,7 +89,7 @@ prep - design picorv32a
 
 **We can find Synthesis Report in the directory**
 
-     /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/30-03_04-14/results/synthesis/picorv32a.synthesis.v
+     /home/vsduser/Desktop/work/tools/openlane_workging_dir/openlane/designs/picorv32a/runs/30-03_04-14/results/synthesis/picorv32a.synthesis.v
 
 
 
@@ -101,7 +101,8 @@ prep - design picorv32a
 # Floorplanning #
 
 **The LAB for day 2 gives the complete flow of the Floorplanning and the placement process**
-/home/vsduser/Desktop/DAY_2/day_2_1.png
+file:///home/vsduser/Desktop/DAY_2/D_2_P_1.png![image](https://github.com/shashisahu1038/vsd_lab/assets/165407652/51ebc414-0bd6-4837-9d55-796a4d448395)
+
 
 
 
