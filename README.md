@@ -111,7 +111,9 @@ To run floorplan
 
   run_floorplan
 we will be getting a success message like this
-#
+![floorplan_RUN_succesfully](https://github.com/shashisahu1038/vsd_lab/assets/165407652/1d2888f1-fb8e-41cc-af71-8e206e79c86c)
+
+
 
 
 In this particular location from the floorplan.def file, we can able to see the area of the chip
