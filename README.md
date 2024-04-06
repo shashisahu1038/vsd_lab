@@ -103,6 +103,84 @@ prep - design picorv32a
 **The LAB for day 2 gives the complete flow of the Floorplanning and the placement process**
 ![D_2_P_1](https://github.com/shashisahu1038/vsd_lab/assets/165407652/7ff59b13-9962-4469-abfe-2cd06e37c445)
 
+The configuration files are inside the location
+
+  /Desktop/work/tools/openlane_working_dir/openlane/configurations/README.md
+#
+To run floorplan
+
+  run_floorplan
+we will be getting a success message like this
+#
+
+
+In this particular location from the floorplan.def file, we can able to see the area of the chip
+    # 
+    1000 unit distance = 1 Micron
+
+         Distance in micron = value
+                            ----------
+                               1000
+
+        Die width in micron = 660685 
+                             ---------
+                               1000
+                            
+       Die height in micron =  671405 
+                              ---------
+                                1000
+
+      Area of die in micron = 660.685*671.405 Square micron 
+
+# 
+Open this directory to initiate the Magic Tool
+Locate to this directory
+
+  ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/29-03_15-37/results/floorplan
+
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+#
+Floorplan def in Magic
+#
+#
+Horizontal metal layer
+#
+#
+Vertical metal layer
+#
+#
+Standard cells
+#
+#
+
+# Placement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
