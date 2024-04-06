@@ -8,15 +8,12 @@
  
   
  ##
-   ls 
-   
-   cd Desktop
-   
-   cd work/tools
-   
-   cd openlane_working_dir
   
-   cd openlane 
+     ls 
+     cd Desktop
+     cd work/tools
+     cd openlane_working_dir
+     cd openlane 
 ##
 # To open the Openlane #
 ![day_1_2](https://github.com/shashisahu1038/vsd_lab/assets/165407652/539b5a0f-9500-4ce4-8410-65da671326d5)
@@ -26,13 +23,10 @@
 
 
 #
-  ls -ltr 
-  
-  docker
-  
-  pwd
-  
-  ls -ltr
+     ls -ltr 
+     docker
+     pwd
+     ls -ltr
 #
 **To open the openlane in interactive mode, use command-**
 ![day_1_3](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9d61bae3-7c47-4003-a4b0-13238d4b0437)
