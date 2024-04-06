@@ -166,12 +166,15 @@ To run the Placement, the command is
      run_placement
 #
 **we will be getting a success message like this**
+![d_2_run_placement](https://github.com/shashisahu1038/vsd_lab/assets/165407652/24449dbc-6e85-4a48-85da-2a12c65d0b20)
+
 # 
 Commands to load placement def in magic
-#
-#
-magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
-#
+
+     magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+![D-2_directory of placement](https://github.com/shashisahu1038/vsd_lab/assets/165407652/0a3af577-19db-4e03-9fde-0a223500337a)
+
+ #   
 Floorplan def in magic
 #
 #
