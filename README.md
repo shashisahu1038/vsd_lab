@@ -101,7 +101,7 @@ prep - design picorv32a
 # Floorplanning #
 
 **The LAB for day 2 gives the complete flow of the Floorplanning and the placement process**
-file:///home/vsduser/Desktop/DAY_2/D_2_P_1.png![image](https://github.com/shashisahu1038/vsd_lab/assets/165407652/51ebc414-0bd6-4837-9d55-796a4d448395)
+
 
 
 
