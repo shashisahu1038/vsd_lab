@@ -144,16 +144,16 @@ Floorplan def in Magic
 ![d_2_def_clear](https://github.com/shashisahu1038/vsd_lab/assets/165407652/408c7a7d-10ee-4f43-b1e4-2353658e71e1)
 
 #
-Horizontal metal layer
+**Horizontal metal layer description**
 ![day_2_horizontal_layer](https://github.com/shashisahu1038/vsd_lab/assets/165407652/bcf9ccf4-3714-409c-a18a-52defe9a0796)
 
 #
-Vertical metal layer
+**Vertical metal layer description**
 
 ![d_2_vertical_layer](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9ddcdc86-c316-4398-b6fa-7702876634da)
 
 #
-Standard cells
+**Standard cells layout in floorpan stage**
 
 ![d_2_std_cells](https://github.com/shashisahu1038/vsd_lab/assets/165407652/3f0cee0c-d117-4303-b75d-6467f6f01f19)
 
@@ -169,16 +169,18 @@ To run the Placement, the command is
 ![d_2_run_placement](https://github.com/shashisahu1038/vsd_lab/assets/165407652/24449dbc-6e85-4a48-85da-2a12c65d0b20)
 
 # 
-Commands to load placement def in magic
+**Commands to load placement def in magic**
 
      magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 ![D-2_directory of placement](https://github.com/shashisahu1038/vsd_lab/assets/165407652/0a3af577-19db-4e03-9fde-0a223500337a)
 
  #   
-Floorplan def in magic
-#
-#
-Standard cell placement
+**placement layout of design in magic**
+![D-2_def_placement ](https://github.com/shashisahu1038/vsd_lab/assets/165407652/712f9b42-423e-429b-8bc7-3339335038d3)
+
+
+
+**Standard cell placement**
 #
 #
 # DAY-3
