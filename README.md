@@ -154,6 +154,27 @@ Standard cells
 #
 
 # Placement
+To run the Placement, the command is
+#
+#
+run_placement
+# 
+Commands to load placement def in magic
+#
+#
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+#
+Floorplan def in magic
+#
+#
+Standard cell placement
+#
+#
+# DAY-3
+
+The LAB for the day gives the complete flow of the Inverter simulation using ngspice and Magic EDA tool
+#
+#
 
 
 
