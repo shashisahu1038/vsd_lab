@@ -137,6 +137,8 @@ In this particular location from the floorplan.def file, we can able to see the 
 
 # 
 Open this directory to initiate the Magic Tool
+![day_2_open_magic](https://github.com/shashisahu1038/vsd_lab/assets/165407652/c4f2c120-f46a-43cd-98e5-22664b90771e)
+
 Locate to this directory
 
   ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/29-03_15-37/results/floorplan
@@ -144,16 +146,24 @@ Locate to this directory
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 #
 Floorplan def in Magic
-#
+
+![d_2_def_clear](https://github.com/shashisahu1038/vsd_lab/assets/165407652/408c7a7d-10ee-4f43-b1e4-2353658e71e1)
+
 #
 Horizontal metal layer
-#
+![day_2_horizontal_layer](https://github.com/shashisahu1038/vsd_lab/assets/165407652/bcf9ccf4-3714-409c-a18a-52defe9a0796)
+
 #
 Vertical metal layer
-#
+
+![d_2_vertical_layer](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9ddcdc86-c316-4398-b6fa-7702876634da)
+
 #
 Standard cells
-#
+
+![d_2_std_cells](https://github.com/shashisahu1038/vsd_lab/assets/165407652/3f0cee0c-d117-4303-b75d-6467f6f01f19)
+
+
 #
 
 # Placement
