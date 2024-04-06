@@ -111,13 +111,14 @@ To run floorplan
 
   run_floorplan
 we will be getting a success message like this
+
 ![floorplan_RUN_succesfully](https://github.com/shashisahu1038/vsd_lab/assets/165407652/1d2888f1-fb8e-41cc-af71-8e206e79c86c)
 
-
-
-
 In this particular location from the floorplan.def file, we can able to see the area of the chip
-    # 
+
+![Day2_def](https://github.com/shashisahu1038/vsd_lab/assets/165407652/c7c50f5c-4253-4f3f-b7c2-3da221593112)
+ 
+
     1000 unit distance = 1 Micron
 
          Distance in micron = value
