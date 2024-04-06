@@ -103,9 +103,10 @@ prep - design picorv32a
 **The LAB for day 2 gives the complete flow of the Floorplanning and the placement process**
 ![D_2_P_1](https://github.com/shashisahu1038/vsd_lab/assets/165407652/7ff59b13-9962-4469-abfe-2cd06e37c445)
 
-The configuration files are inside the location
+**The configuational file present in this location**
 
-  /Desktop/work/tools/openlane_working_dir/openlane/configurations/README.md
+     /home/vsduser/Desktop/work/tools/openlane_workging_dir/openlane/configurations/README.md
+
 #
 To run floorplan
 
@@ -168,9 +169,10 @@ Standard cells
 
 # Placement
 To run the Placement, the command is
-#
-#
+
 run_placement
+#
+**we will be getting a success message like this**
 # 
 Commands to load placement def in magic
 #
