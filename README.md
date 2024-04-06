@@ -187,7 +187,9 @@ To run the Placement, the command is
 The LAB for the day gives the complete flow of the Inverter simulation using ngspice and Magic EDA tool
 #
 #
-
+Go to this directory to git clone the files
+       
+       /Desktop/work/tools/openlane_working_dir/openlane
 
 
 
