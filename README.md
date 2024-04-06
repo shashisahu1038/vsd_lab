@@ -163,7 +163,7 @@ Standard cells
 # Placement
 To run the Placement, the command is
 
-   run_placement
+     run_placement
 #
 **we will be getting a success message like this**
 # 
