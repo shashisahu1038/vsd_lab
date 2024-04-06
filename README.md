@@ -175,14 +175,13 @@ To run the Placement, the command is
 ![D-2_directory of placement](https://github.com/shashisahu1038/vsd_lab/assets/165407652/0a3af577-19db-4e03-9fde-0a223500337a)
 
  #   
-**placement layout of design in magic**
+**layout of designin placement inside magic**
 ![D-2_def_placement ](https://github.com/shashisahu1038/vsd_lab/assets/165407652/712f9b42-423e-429b-8bc7-3339335038d3)
 
+**Standard cell layout in placement stage**
+![stdcell_placenment_stage](https://github.com/shashisahu1038/vsd_lab/assets/165407652/1727f075-6791-40e0-aa80-2f8d9ce9209f)
 
 
-**Standard cell placement**
-#
-#
 # DAY-3
 
 The LAB for the day gives the complete flow of the Inverter simulation using ngspice and Magic EDA tool
