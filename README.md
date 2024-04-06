@@ -32,21 +32,20 @@
 ![day_1_3](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9d61bae3-7c47-4003-a4b0-13238d4b0437)
 
 
- ./flow.tcl -interactive
+       ./flow.tcl -interactive
 
 #
 **To prepare the openlane, use command-**
 
-package require openlane 0.9
-
-prep - design picorv32a
+    package require openlane 0.9
+    prep - design picorv32a
     
 #
  # For Synthesis  
 ![day_1_4](https://github.com/shashisahu1038/vsd_lab/assets/165407652/e6c28df5-4047-4c2e-ae76-1a9e49120cbc)
 **To run the Synthesis-**
   
-  run_synthesis
+    run_synthesis
 #  
 **-> After Synthesis is completed,we have seen all the details about the synthesis of the design(picorv32a)**
 
@@ -136,9 +135,9 @@ Open this directory to initiate the Magic Tool
 
 Locate to this directory
 
-  ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/29-03_15-37/results/floorplan
+    ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/29-03_15-37/results/floorplan
 
-magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+    magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 #
 Floorplan def in Magic
 
@@ -164,7 +163,7 @@ Standard cells
 # Placement
 To run the Placement, the command is
 
-run_placement
+   run_placement
 #
 **we will be getting a success message like this**
 # 
