@@ -309,7 +309,7 @@ it is time taken to the output waveform to 20% value to 80% value.
   ![d_3_18_plot_rise_20](https://github.com/shashisahu1038/vsd_lab/assets/165407652/b016a29e-47c0-4c89-ad85-e0e63e938135)
 
 
-so, rise time= (2.2489 - 2.1819)e-09 = 66.92 psec.
+so, rise time= (2.24688 - 2.18214)e-09 = 64.74 psec.
 
 * **fall time**
 it is the time take by output for transition from 80% to 20%.
@@ -324,7 +324,7 @@ it is the time take by output for transition from 80% to 20%.
 ![d_3_17_plot_fall_20](https://github.com/shashisahu1038/vsd_lab/assets/165407652/37f976af-7bed-4f91-9485-1bae873d85a0)
 
   
-so, rise time= (4.09512 - 4.05264)e-09 = 42.51 psec.
+so, rise time= (4.09397 - 4.05089e-09 = 43.08 psec.
 
 * 
 * **cell rise delay**
@@ -335,7 +335,7 @@ it is the time difference between output falling to 50% and input is rising to 5
 
   ![d_3_19_plot_cell_rise_delay_calculation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/f9007b8b-8941-4647-b906-d93f7aef5893)
 
-so, propogation delay =(2.2106 - 2.15012)e-09 = 60.48 psec.
+so, propogation delay =(6.21119 - 6.15)e-09 = 61.19 psec.
 
 * **cell fall delay**
 it is time difference between output falling to 50% and input is rising to 50%.
@@ -345,7 +345,7 @@ it is time difference between output falling to 50% and input is rising to 50%.
   
     ![d_3_19_plot_cell_fall_delay_calculation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9f7dd87e-a221-45de-be10-f0047463acfb)
 
-so, cell fall delay =(4.07735 - 4.04988)e-09 = 27.47 psec.
+so, cell fall delay =(4.07588 - 4.05022)e-09 = 25.66 psec.
 
 We have successfully characterized our inverter. Our next objective is to create a lef file using the layout and we will plugin this lef file in the picorv32a core
 
