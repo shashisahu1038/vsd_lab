@@ -235,14 +235,23 @@ For seeing connection we put cursor on "Nmos" & type two times "s". we see that 
 # 
 For knowing logical functioning of Inverter,we would 1st extract spice then we would to spice silution on ngspice simulator.
 **So we open the tkcon window and type given below the commands for extracting the files**
+![d_3_11_spice_extration](https://github.com/shashisahu1038/vsd_lab/assets/165407652/2e748b0f-6038-4fed-ba24-5d1c7088a394)
 
      pwd
      extract all
-#
-#
+After extraction it gives a file name as "sky130_inv.ext" on our location
+![d_3_12_extraction_file_location](https://github.com/shashisahu1038/vsd_lab/assets/165407652/81270a04-b06e-4b4e-8fc2-b689f22f6802)
+
+we use 'sky130_inv.ex' file generation of spice file which we are using in ngspice
+
+**generating spice file for ngspice by using these commands**  
     
      ext2spice cthresh 0 rthresh 0
      ext2spice  
+
+By using these commands we extract all paracitic capacitance.
+![d_3_13_spice_generate_file](https://github.com/shashisahu1038/vsd_lab/assets/165407652/692d4508-b939-4937-a7eb-bbefa37ab3fe)
+
 #
 ## Spice Simulation
 Now in the git cloned location, we can able to see the sky130_inv.spice file
