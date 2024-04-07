@@ -1,7 +1,7 @@
 # VSD Workshop -
-#
-**SoC_Design_and_Chip_Planning_Using_OpenLane_Flow**
 
+## **SoC_Design_and_Chip_Planning_Using_OpenLane_Flow**
+#
 # Day 1 
 
 ### Open the working Directory for using openlane 
