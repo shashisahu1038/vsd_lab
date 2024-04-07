@@ -309,15 +309,15 @@ it is the time take by output for transition from 80% to 20%.
 
 so, rise time= (4.09512 - 4.05264)e-09 = 42.51 psec.
 
-* **propagation delay**
-it is the time difference between the 50% of input and 50% of the output.
+* **cell rise delay**
+it is the time difference between output falling to 50% and input is rising to 50%.
 
       image
 
 so, propogation delay =(2.2106 - 2.15012)e-09 = 60.48 psec.
 
 * **cell fall delay**
-it is time for output falling to 50% and input is rising to 50%.
+it is time difference between output falling to 50% and input is rising to 50%.
           image 
 so, cell fall delay =(4.07735 - 4.04988)e-09 = 27.47 psec.
 
