@@ -311,7 +311,9 @@ so, rise time= (2.2489 - 2.1819)e-09 = 66.92 psec.
 
 * **fall time**
 it is the time take by output for transition from 80% to 20%.
+
 ![d_3_17_plot_fall_calculation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/0504d554-4100-4bef-add8-f6753f8de6d3)
+
 
 * 80% value of falling output
 ![d_3_17_plot_fall_80](https://github.com/shashisahu1038/vsd_lab/assets/165407652/54668daa-6cd5-4499-80d5-db95a9632499)
@@ -326,19 +328,20 @@ so, rise time= (4.09512 - 4.05264)e-09 = 42.51 psec.
 * **cell rise delay**
 it is the time difference between output falling to 50% and input is rising to 50%.
 * 50% of rising ouput & 50 % of falling input
-  ![d_3_19_plot_cell_rise_delay](https://github.com/shashisahu1038/vsd_lab/assets/165407652/41aeadad-df31-474f-b8ab-1b74405113ab)
+![d_3_19_plot_cell_rise_delay](https://github.com/shashisahu1038/vsd_lab/assets/165407652/41aeadad-df31-474f-b8ab-1b74405113ab)
 
-![d_3_19_plot_cell_rise_delay_calculation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/f9007b8b-8941-4647-b906-d93f7aef5893)
+
+  ![d_3_19_plot_cell_rise_delay_calculation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/f9007b8b-8941-4647-b906-d93f7aef5893)
 
 so, propogation delay =(2.2106 - 2.15012)e-09 = 60.48 psec.
 
 * **cell fall delay**
 it is time difference between output falling to 50% and input is rising to 50%.
 * 50% of rising ouput & 50 % of falling input
-  ![d_3_19_plot_cell_fall_delay](https://github.com/shashisahu1038/vsd_lab/assets/165407652/b0ef6e57-7b9b-44bd-bf43-a7d7aa29adca)
+![d_3_19_plot_cell_fall_delay](https://github.com/shashisahu1038/vsd_lab/assets/165407652/b0ef6e57-7b9b-44bd-bf43-a7d7aa29adca)
 
   
- ![d_3_19_plot_cell_fall_delay_calculation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9f7dd87e-a221-45de-be10-f0047463acfb)
+    ![d_3_19_plot_cell_fall_delay_calculation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9f7dd87e-a221-45de-be10-f0047463acfb)
 
 so, cell fall delay =(4.07735 - 4.04988)e-09 = 27.47 psec.
 
