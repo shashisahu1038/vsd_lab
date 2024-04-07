@@ -190,8 +190,12 @@ The LAB for the day gives the complete flow of the Inverter simulation using ngs
 we need to put our custom inverter into design; for this purpose, we need to custom inverter file which is present on github. 
 
 So we need to go on openlane directory & cloning this file here. 
-       /Desktop/work/tools/openlane_working_dir/openlane
 
+            /Desktop/work/tools/openlane_working_dir/openlane
+#
+we clone the files from github to here by given below command
+             
+              git clone https://github.com/nickson-jose/vsdstdcelldesign.git  
 
 
 
