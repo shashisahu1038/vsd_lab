@@ -232,9 +232,9 @@ For seeing connection we put cursor on "Pmos" & type two times "s". we see that 
 For seeing connection we put cursor on "Nmos" & type two times "s". we see that Nmos connected to gnd.
 ![d_3_10__nmos_gnd_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/8ad2e207-2d44-4a33-851e-100dd3315bd4)
 
-**After seening layouts we open the tkcon window and type given below the commands for extracting the files**
-#
-#
+# 
+For knowing logical functioning of Inverter,we would 1st extract spice then we would to spice silution on ngspice simulator.
+**So we open the tkcon window and type given below the commands for extracting the files**
 
      pwd
      extract all
