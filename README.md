@@ -184,20 +184,25 @@ To run the Placement, the command is
 
 # DAY-3
 
-The LAB for the day gives the complete flow of the Inverter simulation using ngspice and Magic EDA tool
+**The LAB for the day gives the complete flow of the Inverter simulation using ngspice and Magic EDA tool**
 #
 #
 we need to put our custom inverter into design; for this purpose, we need to custom inverter file which is present on github. 
 
-So we need to go on openlane directory & cloning this file here. 
+**So we need to go on openlane directory & cloning this file here**. 
 
             /Desktop/work/tools/openlane_working_dir/openlane
 #
-we clone the files from github to here by given below command
+**we clone the files from github to here by given below command**
              
               git clone https://github.com/nickson-jose/vsdstdcelldesign.git  
+#
+#
+We need to open Mac file for viewing diffrent layer which building inverter. Before opening mac file we need to have magic tech file.So we need to copy these files on our location.
 
+**magic Tech file location** 
 
+         /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic
 
 
 
