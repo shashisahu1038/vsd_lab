@@ -208,11 +208,32 @@ Now initialize magic
          magic -T sky130A.tech sky130_inv.mag &
 #
 #
-..*Inverter layout
+* Inverter layout
+#
+# 
+* Nmos layout
+  #
+  #
+ Pmos layout
+  #
+  #
+Connection between source and VDD in Pmos
+#
+#
+Connection between source and VDD in Pmos
+#
+#
+**After seening layouts we open the tkcon window and type given below the commands for extracting the files**
 #
 #
 
-
+     pwd
+     extract all
+#
+#
+    
+     ext2spice cthresh 0 rthresh 0
+     ext2spice  
 
 
 
