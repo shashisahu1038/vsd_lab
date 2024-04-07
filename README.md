@@ -211,16 +211,20 @@ Now initialize magic
 * Inverter layout
 #
 # 
-* Nmos layout
+* **Nmos layout**
+
+When polydiffusion crosses N-diffusion known as Nmos
   #
   #
- Pmos layout
+* **Pmos layout**
+
+When polydiffusion crosses P-diffusion known as Pmos
   #
   #
-Connection between source and VDD in Pmos
+* **Connection between source and VDD in Pmos**
 #
 #
-Connection between source and VDD in Pmos
+* **Connection between source and VDD in Pmos**
 #
 #
 **After seening layouts we open the tkcon window and type given below the commands for extracting the files**
@@ -238,8 +242,8 @@ Connection between source and VDD in Pmos
 ## Spice Simulation
 Now in the git cloned location, we can able to see the sky130_inv.spice file
 
-To install ngspice, use the commands in the terminal
-
+**To install ngspice, use the commands in the terminal**
+    
      sudo apt -y install ngspice
 Then run the spice file in ngspice
 
@@ -247,11 +251,11 @@ Then run the spice file in ngspice
 
 #
 #
-Spice Output
+* **Spice Output**
 #
 #
-To plot the graph between Voltage and time type the command in ngspice
-
+**To plot the graph between Voltage and time type the command in ngspice**
+     
      plot y vs time a
 
 
