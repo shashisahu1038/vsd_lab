@@ -132,7 +132,8 @@ In this particular location from the floorplan.def file, we can able to see the 
 **Locate to this directory**
 
     ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/29-03_15-37/results/floorplan
-    #
+    
+**open Magic for viewing layout**
     
     magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 #
