@@ -287,10 +287,11 @@ we also change pshort to pshort_model.0 & nshort to nshort_model.0. Now our file
 **To plot the graph between Voltage and time type the command in ngspice**
      
      plot y vs time a
-# Figure
+![d_3_17_plot_yvstime](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9dc8eac7-07af-4b0e-9505-c5f67cf54a08)
 
 if we increase the C3 value from 0.024ff to 2ff the graph will look like this, graph become more smoother.
-# figure
+![d_3_17_plot_yvstime_modified](https://github.com/shashisahu1038/vsd_lab/assets/165407652/1056f3cb-408e-4522-b7d8-147897c354de)
+
 
 ## Steps to characterize inverter using sky130 model files
 * **Here, we have to find value of 4 parameters**
