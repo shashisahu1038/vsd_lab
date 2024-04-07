@@ -181,8 +181,7 @@ To run the Placement, the command is
 # DAY-3
 
 **The LAB for the day gives the complete flow of the Inverter simulation using ngspice and Magic EDA tool**
-#
-#
+
 we need to put our custom inverter into design; for this purpose, we need to custom inverter file which is present on github. 
 
 **So we need to go on openlane directory & cloning this file here**. 
@@ -192,8 +191,8 @@ we need to put our custom inverter into design; for this purpose, we need to cus
 **we clone the files from github to here by given below command**
              
               git clone https://github.com/nickson-jose/vsdstdcelldesign.git  
-#
-#
+![D_3_gitclone](https://github.com/shashisahu1038/vsd_lab/assets/165407652/9eec39f2-1a71-4bd5-91d6-9bb72de37a6e)
+
 We need to open Mac file for viewing diffrent layer which building inverter. Before opening mac file we need to have magic tech file.So we need to copy these files on our location.
 
 **magic Tech file location** 
@@ -201,26 +200,26 @@ We need to open Mac file for viewing diffrent layer which building inverter. Bef
          /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic
 
 copy the sky130A.tech file from this location to the our location (custom inverter files location)
-#
-#
+![d_3_3_copytechfile](https://github.com/shashisahu1038/vsd_lab/assets/165407652/b522d764-3e99-4cd1-adca-fceba614a8ec)
+
 Now initialize magic
 
          magic -T sky130A.tech sky130_inv.mag &
-#
-#
+![d-3_4_initializing_magic](https://github.com/shashisahu1038/vsd_lab/assets/165407652/ddda4939-b5d9-4ecf-aac0-4d5a90ab0907)
+
 * Inverter layout
-#
-# 
+![d_3_5_inverter_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/d754e36f-984b-4dc9-acc5-a883c740f062)
+
 * **Nmos layout**
 
 When polydiffusion crosses N-diffusion known as Nmos
-  #
-  #
+  ![d_3_6_nmos_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/53422920-8990-4db1-8d4c-1786876922d2)
+
 * **Pmos layout**
 
 When polydiffusion crosses P-diffusion known as Pmos
-  #
-  #
+  ![d_3_7_pmos_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/a34489d4-246e-4a91-b211-46ee4f449bad)
+
 * **Connection between source and VDD in Pmos**
 #
 #
