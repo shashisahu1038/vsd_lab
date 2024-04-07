@@ -299,7 +299,9 @@ if we increase the C3 value from 0.024ff to 2ff the graph will look like this, g
 
 * **rise time**
 it is time taken to the output waveform to 20% value to 80% value.
+
 ![d_3_19_plot_rise_calculation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/21c00c55-75a7-49b6-8541-f9b7602f4e42)
+
 * 80% value of rising rising output
   ![d_3_18_plot_rise time_80](https://github.com/shashisahu1038/vsd_lab/assets/165407652/a492221e-e2bc-4f60-8694-5bcd563e393b)
   
