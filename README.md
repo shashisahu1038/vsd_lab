@@ -234,8 +234,16 @@ Connection between source and VDD in Pmos
     
      ext2spice cthresh 0 rthresh 0
      ext2spice  
+#
+## Spice Simulation
+Now in the git cloned location, we can able to see the sky130_inv.spice file
 
+To install ngspice, use the commands in the terminal
 
+     sudo apt -y install ngspice
+Then run the spice file in ngspice
+
+     ngspice sky130_inv.spice
 
 
 
