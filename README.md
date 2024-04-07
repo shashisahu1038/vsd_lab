@@ -245,6 +245,16 @@ Then run the spice file in ngspice
 
      ngspice sky130_inv.spice
 
+#
+#
+Spice Output
+#
+#
+To plot the graph between Voltage and time type the command in ngspice
+
+     plot y vs time a
+
+
 
 
 
