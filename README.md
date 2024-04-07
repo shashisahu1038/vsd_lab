@@ -260,7 +260,7 @@ X0 is NMOS and X1 is PMOS and both's connectivity is shown as GATE DRAIN SUBSTAT
 **Let's check "sky130_inv.spice" file contains**
 ![d_3_14_spice130A](https://github.com/shashisahu1038/vsd_lab/assets/165407652/f1186a11-ad8b-4a6d-89e5-03d202f508b4)
 
-
+**Here we can see our final dec**
 For Now we have to include the PMOS and NMOS lib files. it is inside the libs folder which is present under vsdstdcellsdesign folder.We are giving these files because we want to control inputs also.
 
 So we edit "sky130_inv.spice" file.We set the supply voltage "VDD" to 3.3v by VDD VPWR 0 3.3V command. Similarly we set the value of "VSS" to to 0v by VSS VGND 0 0V command. 
@@ -270,9 +270,7 @@ Now, we need to specify the input files. by Va A VGND PULSE(0V 3.3V 0 0.1ns 0.1n
 Also add the command for the analysis like, .tran 1n 20n, .control , run,.endc,.end.
 
 we also change pshort to pshort_model.0 & nshort to nshort_model.0. Now our file deck ready for simulation.
-
-**Here we can see our final dec**
-
+![d_3_15_spice130A_modified](https://github.com/shashisahu1038/vsd_lab/assets/165407652/c133d375-0fd2-4428-bb2b-9120d1b7b2a9)
 
 **To install ngspice, use the commands in the terminal**
     
@@ -282,7 +280,8 @@ we also change pshort to pshort_model.0 & nshort to nshort_model.0. Now our file
      ngspice sky130_inv.spice
      
 **After running this file we get output of ngspice like this**
-#figure
+
+![d_3_16_ngspice_simulation](https://github.com/shashisahu1038/vsd_lab/assets/165407652/cc35a30e-837e-42e9-8c6b-cf46c002e358)
 
 **To plot the graph between Voltage and time type the command in ngspice**
      
