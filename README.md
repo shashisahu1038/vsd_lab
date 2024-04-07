@@ -212,20 +212,26 @@ Now initialize magic
 
 * **Nmos layout**
 
-When polydiffusion crosses N-diffusion known as Nmos
+When polydiffusion crosses N-diffusion known as Nmos.So selection of nmos we  type "s" & open tkcon.tcl, type what to know it is Nmoss or Pmos
   ![d_3_6_nmos_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/53422920-8990-4db1-8d4c-1786876922d2)
 
 * **Pmos layout**
 
-When polydiffusion crosses P-diffusion known as Pmos
+When polydiffusion crosses P-diffusion known as Pmos. So selection of nmos we  type "s" & open tkcon.tcl, type what to know it is Nmoss or Pmos.
   ![d_3_7_pmos_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/a34489d4-246e-4a91-b211-46ee4f449bad)
+  
+* **Connection between source of Nmos and drain of Pmos(checking output connection)**
+  ![d_3_8_source_drain_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/e8dc40fd-0910-4bfb-9e70-ba51ac5843d7)
 
 * **Connection between source and VDD in Pmos**
-#
-#
-* **Connection between source and VDD in Pmos**
-#
-#
+
+For seeing connection we put cursor on "Pmos" & type two times "s". we see that Pmos connected to Vdd.
+![d_3_9_pmos_vdd_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/dca529e2-4a25-41ec-8ea7-ea2219ec83b3)
+
+* **Connection between source and gnd in Nmos**
+For seeing connection we put cursor on "Nmos" & type two times "s". we see that Nmos connected to gnd.
+![d_3_10__nmos_gnd_layout](https://github.com/shashisahu1038/vsd_lab/assets/165407652/8ad2e207-2d44-4a33-851e-100dd3315bd4)
+
 **After seening layouts we open the tkcon window and type given below the commands for extracting the files**
 #
 #
