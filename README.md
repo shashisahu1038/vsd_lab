@@ -1,4 +1,6 @@
-# VSD Workshop on SoC_Design_and_Chip_Planning_Using_OpenLane_Flow
+# VSD Workshop -
+#
+**SoC_Design_and_Chip_Planning_Using_OpenLane_Flow**
 
 # Day 1 
 
