@@ -453,7 +453,15 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 
 ![lab_3_3](https://github.com/shashisahu1038/vsd_lab/assets/165407652/4ae64728-84e0-464b-81fc-55e58f0a9cce)
  
+**now we will try to use this custom standard cell in out picorv32a design so for that we will be copying all the library files and lef file and adding the required changes in the config.tcl file.
+Command forn that-**
 
+       set ::env(LIB_SYNTH) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+       set ::env(LIB_FASTEST) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__fast.lib"
+       set ::env(LIB_SLOWEST) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__slow.lib"
+       set ::env(LIB_TYPICAL) "$::env(OPENLANE_ROOT)/designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+
+       set ::env(EXTRA_LEFS) [glob $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/src/*.lef]
 
 
 
