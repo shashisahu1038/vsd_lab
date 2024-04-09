@@ -49,7 +49,7 @@
 **-> After Synthesis is completed,we have seen all the details about the synthesis of the design(picorv32a)**
 
 **•The Chip Area of the module 147712.918400 as shown in figure-**
-
+steps to convert magic layout to std cell LEF
 ![day_1_5](https://github.com/shashisahu1038/vsd_lab/assets/165407652/4d7c0656-325d-4a40-a850-f97c1e69faa6)
 
 
@@ -415,7 +415,7 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 
 # Day 4 - Pre-layout timing analysis and importance of good clock tree
 
-##Timing modeling using delay tables
+## Timing modeling using delay tables
 
 **steps to convert grid info to track info**
 
