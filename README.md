@@ -351,8 +351,20 @@ it is time difference between output falling to 50% and input is rising to 50%.
 so, cell fall delay =(4.07588 - 4.05022)e-09 = 25.66 psec.
 
 We have successfully characterized our inverter. Our next objective is to create a lef file using the layout and we will plugin this lef file in the picorv32a core
+#
+## DRC rules & DRC check in Magic-
 
+**To know more about the Magic DRC; visit the website:-**
 
+      http://opencircuitdesign.com/magic/Technologyfiles/TheMagicTechnologyFileManual/DrcSection
+
+Link to Google_Skywaters Design Rules: - 
+
+      https://skywater-pdk.readthedocs.io/en/main/rules/periphery.html
+
+For reference , we can use the github repo of Google-Skywater: -
+
+      https://github.com/google/skywater-pdk
 
 
 
