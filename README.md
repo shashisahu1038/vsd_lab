@@ -47,7 +47,7 @@
     run_synthesis
 #  
 **-> After Synthesis is completed,we have seen all the details about the synthesis of the design(picorv32a)**
-
+Introduction to timing libs and steps to include new cell in synthesis
 **•The Chip Area of the module 147712.918400 as shown in figure-**
 steps to convert magic layout to std cell LEF
 ![day_1_5](https://github.com/shashisahu1038/vsd_lab/assets/165407652/4d7c0656-325d-4a40-a850-f97c1e69faa6)
@@ -417,7 +417,7 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 
 ## **Timing modeling using delay tables**
 
-* **steps to convert grid info to track info**
+### **steps to convert grid info to track info**
 
 **S-1 open magic & press "g" for grid in layout**
 
@@ -428,7 +428,7 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 
 ![D_4_3](https://github.com/shashisahu1038/vsd_lab/assets/165407652/7bdc19c8-a3e0-4878-bdf6-2bd1b4e75b81)
 
-* **steps to convert magic layout to std cell LEF**
+### **steps to convert magic layout to std cell LEF**
 
 ![D_4_4](https://github.com/shashisahu1038/vsd_lab/assets/165407652/7bb54393-36f3-49e5-93a0-5b4fb8b03c2b)
 
@@ -445,7 +445,7 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 ![D_4_10](https://github.com/shashisahu1038/vsd_lab/assets/165407652/1bce3159-12ca-49c6-9e26-c6279f8158de)
 
 
-* **Introduction to timing libs and steps to include new cell in synthesis**
+### **Introduction to timing libs and steps to include new cell in synthesis**
 
 ![lab_3_1](https://github.com/shashisahu1038/vsd_lab/assets/165407652/c5559997-d024-4d83-8802-a444fc53a082)
 
