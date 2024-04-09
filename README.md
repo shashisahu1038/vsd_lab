@@ -463,7 +463,10 @@ Command forn that-**
 
        set ::env(EXTRA_LEFS) [glob $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/src/*.lef]
 
+we will include the below commands to include the additional lef into the flow when we do openlane flow-
 
+      set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+      add_lefs -src $lefs
 
 
 
