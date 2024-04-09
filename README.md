@@ -445,9 +445,13 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 ![D_4_10](https://github.com/shashisahu1038/vsd_lab/assets/165407652/1bce3159-12ca-49c6-9e26-c6279f8158de)
 
 
+* **Introduction to timing libs and steps to include new cell in synthesis**
 
+![lab_3_1](https://github.com/shashisahu1038/vsd_lab/assets/165407652/c5559997-d024-4d83-8802-a444fc53a082)
 
+![lab_3_2](https://github.com/shashisahu1038/vsd_lab/assets/165407652/8e6f011c-5302-4e6a-ab1d-ff3737c64967)
 
+![lab_3_3](https://github.com/shashisahu1038/vsd_lab/assets/165407652/4ae64728-84e0-464b-81fc-55e58f0a9cce)
  
 
 
