@@ -366,7 +366,33 @@ For reference , we can use the github repo of Google-Skywater: -
 
       https://github.com/google/skywater-pdk
 
+ https://github.com/google/skywater-pdk
+ #
 
+ ## DRC rule check in Magic-
+
+We need to download some pdk for design so that we apply DRC on design.
+ 
+**follow steps for DRC rule check-**
+Step-1  Download the lab files for performing DRC corrections by link-
+
+     wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+     
+Step-2 extract the lab files from the downloaded file by command
+
+    tar xfz drc_tests.tgz
+
+Step-3 go inside extracted directory(drc_tests)
+
+Step-4 open magic by command
+
+     magic -d XR
+
+Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by selecting a layout by command in tkcon
+
+     drc why
+
+      
 
 
 
