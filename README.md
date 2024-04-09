@@ -366,7 +366,6 @@ For reference , we can use the github repo of Google-Skywater: -
 
       https://github.com/google/skywater-pdk
 
- https://github.com/google/skywater-pdk
  #
 
  ## DRC rule check in Magic-
@@ -374,6 +373,7 @@ For reference , we can use the github repo of Google-Skywater: -
 We need to download some pdk for design so that we apply DRC on design.
  
 **follow steps for DRC rule check-**
+
 Step-1  Download the lab files for performing DRC corrections by link-
 
      wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
@@ -384,6 +384,8 @@ Step-2 extract the lab files from the downloaded file by command
 
 Step-3 go inside extracted directory(drc_tests)
 
+    cd drc_tests
+
 Step-4 open magic by command
 
      magic -d XR
@@ -392,7 +394,26 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 
      drc why
 
-      
+![D_3_DRC_1](https://github.com/shashisahu1038/vsd_lab/assets/165407652/021f8d6d-0093-46d7-ada8-e0fd20fb9e39)
+
+![D_3_DRC_2](https://github.com/shashisahu1038/vsd_lab/assets/165407652/843912ac-0dda-4316-b5c8-c9d7f2ca7b07)
+
+![D_3_DRC_3](https://github.com/shashisahu1038/vsd_lab/assets/165407652/fa12593b-3f5a-43b8-8290-f8774053a437)
+
+![D_3_DRC_4](https://github.com/shashisahu1038/vsd_lab/assets/165407652/7bdb5dab-de5d-4879-bd48-2a927509014c)
+
+![D_3_DRC_5](https://github.com/shashisahu1038/vsd_lab/assets/165407652/16b6ff3f-8d72-4407-afab-d90a7bb17eb6)
+
+![D_3_DRC_7](https://github.com/shashisahu1038/vsd_lab/assets/165407652/e1a4a848-1431-4351-8a30-c2bbc3d05835)
+
+![D_3_DRC_8](https://github.com/shashisahu1038/vsd_lab/assets/165407652/68cf713b-8ca0-4cf3-948d-68da84499856)
+
+![D_3_DRC_9](https://github.com/shashisahu1038/vsd_lab/assets/165407652/0922de4a-cb48-4852-95be-ebca58e90dbb)
+
+![D_3_DRC_10](https://github.com/shashisahu1038/vsd_lab/assets/165407652/a2c95b03-9761-4cc2-b8ee-0f840514dba6)
+
+
+
 
 
 
