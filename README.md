@@ -467,6 +467,13 @@ we will include the below commands to include the additional lef into the flow w
 
       set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
       add_lefs -src $lefs
+![lab_3_4](https://github.com/shashisahu1038/vsd_lab/assets/165407652/6582b06b-8e9b-4e77-9bae-73b53627ab5c)
+
+![lab_3_5](https://github.com/shashisahu1038/vsd_lab/assets/165407652/63d18d49-2790-414d-bcc6-cebcda9a876f)
+
+![lab_3_6](https://github.com/shashisahu1038/vsd_lab/assets/165407652/4ef85416-6a14-4bb2-939b-1ca24b15accb)
+
+
 
 
 
