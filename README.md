@@ -413,6 +413,8 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 ![D_3_DRC_10](https://github.com/shashisahu1038/vsd_lab/assets/165407652/a2c95b03-9761-4cc2-b8ee-0f840514dba6)
 
 
+## Day 4 - Pre-layout timing analysis and importance of good clock tree
+
 
 
 
