@@ -415,9 +415,9 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 
 # Day 4 - Pre-layout timing analysis and importance of good clock tree
 
-## Timing modeling using delay tables
+## **Timing modeling using delay tables**
 
-**steps to convert grid info to track info**
+* **steps to convert grid info to track info**
 
 **S-1 open magic & press "g" for grid in layout**
 
@@ -427,6 +427,15 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 ![D_4_2](https://github.com/shashisahu1038/vsd_lab/assets/165407652/76711408-0345-48cb-8fd1-3c5eadc2fffc)
 
 ![D_4_3](https://github.com/shashisahu1038/vsd_lab/assets/165407652/7bdc19c8-a3e0-4878-bdf6-2bd1b4e75b81)
+
+* **steps to convert magic layout to std cell LEF**
+
+![D_4_4](https://github.com/shashisahu1038/vsd_lab/assets/165407652/7bb54393-36f3-49e5-93a0-5b4fb8b03c2b)
+
+![D_4_5](https://github.com/shashisahu1038/vsd_lab/assets/165407652/3fbcdace-1bc7-49f7-b7a0-869db02f06ca)
+
+![D_4_6](https://github.com/shashisahu1038/vsd_lab/assets/165407652/99630380-9eed-4190-bf57-3e4b53245768)
+
 
 
 
