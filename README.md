@@ -436,7 +436,13 @@ Step-4 Open any file for DRC checking(for example- met3.mag) check DRC by select
 
 ![D_4_6](https://github.com/shashisahu1038/vsd_lab/assets/165407652/99630380-9eed-4190-bf57-3e4b53245768)
 
+![D_4_7](https://github.com/shashisahu1038/vsd_lab/assets/165407652/bd6cc0fa-b174-4555-9efb-d90b774feb63)
 
+![D_4_8](https://github.com/shashisahu1038/vsd_lab/assets/165407652/5b93abd9-4d26-43a9-b2ef-a6f1fb49db35)
+
+![D_4_9](https://github.com/shashisahu1038/vsd_lab/assets/165407652/8e07738a-243d-4f43-8296-9cfdce6cac94)
+
+![D_4_10](https://github.com/shashisahu1038/vsd_lab/assets/165407652/1bce3159-12ca-49c6-9e26-c6279f8158de)
 
 
 
